@@ -1,0 +1,3 @@
+
+The code is compliled to EVM = Ethereum Virtual machine 
+Avalanche , fantom, Polgon 
