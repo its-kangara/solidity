@@ -1,3 +1,30 @@
 
 The code is compliled to EVM = Ethereum Virtual machine 
 Avalanche , fantom, Polgon 
+
+import is like copy pasting our code in the new contract
+
+
+Transactions in solidity consist of:
+
+Nonce : tx count for the account
+Gas price : price per unit of gas in wei 
+Gas Limit : max gas that this tx can use 
+To: Address
+Value :  amount of wei to send 
+Data:  what to send to the  TO Address
+V, r , s :  components of the tx signature
+
+
+
+ //to get the equivalent of USD to ether we introduce Oracles - they give us data in APIS
+                                                                    //data from decentralized sources  eg .traditional agreement data (external data)
+                                                                    //Chain link price feeds API
+
+                                                                    //chainlink virtiual randomness numbers ( e.g lotery, NTFS 
+                                                                    //Chainlink keepers  listens to diffrent event and charges gas 
+                                                                    //End to end reliablity - make request to API's 
+
+
+
+
