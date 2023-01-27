@@ -7,12 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Types.sol": "SimpleStorage"
+			"contracts/StateVariables.sol": "StateVariable"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Types.sol": {
-			"keccak256": "0xbfd0f8fe687187c26f3471c21d314582fb0d3a662173efbb50425ef216e56224",
+		"contracts/StateVariables.sol": {
+			"keccak256": "0x414b41c8c267a5b83f010407bf214b1cafb99fce9d8cf3534e6a6458896058bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://739da044ac86bbd038ea2e3b40faff72c59d64ca555e67903efd61aea387ed62",
-				"dweb:/ipfs/Qmc7KY5f6Mzrnpt85qyEVZ3eC7L5GwsgJD54sABuUnSPr2"
+				"bzz-raw://4aa9de6f2ab9cbde1066db16a8c96ba8207b86a0300d1549c4cb7b496e7cfb14",
+				"dweb:/ipfs/QmRSYNXFPGjFbreimHsA73CtYFKFi5QiGdw8vxVdzrYZgP"
 			]
 		}
 	},

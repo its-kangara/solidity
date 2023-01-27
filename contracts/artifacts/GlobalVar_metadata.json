@@ -7,12 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "globalVars",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Types.sol": "SimpleStorage"
+			"contracts/StateVariables.sol": "GlobalVar"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Types.sol": {
-			"keccak256": "0xbfd0f8fe687187c26f3471c21d314582fb0d3a662173efbb50425ef216e56224",
+		"contracts/StateVariables.sol": {
+			"keccak256": "0x2c0f6ef883efe736c01b8d20ed1906c252610b52444f535e69d934529dbb441d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://739da044ac86bbd038ea2e3b40faff72c59d64ca555e67903efd61aea387ed62",
-				"dweb:/ipfs/Qmc7KY5f6Mzrnpt85qyEVZ3eC7L5GwsgJD54sABuUnSPr2"
+				"bzz-raw://c850762e2cec8e9be764016fceebebfd3a385374474c39df089671c02b256955",
+				"dweb:/ipfs/QmYWVnaPgonHELQcvQ8SpkHpivYcA951LjNpPfWtnrA3UN"
 			]
 		}
 	},

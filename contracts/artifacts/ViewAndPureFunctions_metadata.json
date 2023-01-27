@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.8+commit.dddeac2f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,12 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
 					}
 				],
-				"name": "addressToAmountFunded",
+				"name": "add",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,44 +26,18 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fund",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "funders",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
+				"name": "addToNum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -71,7 +50,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getPrice",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -84,7 +63,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "minimumUsd",
+				"name": "pureFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewFunc",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -109,7 +101,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FundMe.sol": "FundMe"
+			"contracts/ViewPure.sol": "ViewAndPureFunctions"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -123,20 +115,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
-			"keccak256": "0x6e6e4b0835904509406b070ee173b5bc8f677c19421b76be38aea3b1b3d30846",
+		"contracts/ViewPure.sol": {
+			"keccak256": "0x3ec6f15523bb21081a8ebf2bd5f51ebcfe1346d9b6e4dc12eb450495175bc864",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3beaa37ee61e4ab615e250fbf01601ae481de843fd0ef55e6b44fd9d5fff8a7",
-				"dweb:/ipfs/QmeZUVwd26LzK4Mfp8Zba5JbQNkZFfTzFu1A6FVMMZDg9c"
-			]
-		},
-		"contracts/FundMe.sol": {
-			"keccak256": "0x94f72dfb0f15dcf27a3889778f632e53d8ee79cd04c9e6978f74add0a51baa0d",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://bdc57628737749a8d6cc3ae6f8cdb4f3c1ddb9c20b95e2a6f998fc3a37830adb",
-				"dweb:/ipfs/QmZwtWDqWLyQfj6s2qoguwHQmkQTrdZ1bh8RSFkUv932KB"
+				"bzz-raw://fdabc040a791c3d31057a23443ca96985fd46a55549ea9dbcfe4a8783b1d0701",
+				"dweb:/ipfs/QmQeBX6h1kceASaWiVrJ4Xa3QhhHQCFy7qfPqcAHH89NWc"
 			]
 		}
 	},

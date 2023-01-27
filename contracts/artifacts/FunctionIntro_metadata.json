@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "X",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Y",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "X",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "Y",
+						"type": "int256"
+					}
+				],
+				"name": "sub",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Function2.sol": "FunctionIntro"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Function2.sol": {
+			"keccak256": "0x1f7af46a8d28d6afcd76b2998c3be727f48ee124f0d28795a861fd79836481e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92703ac8853800d4ce24202560359476042130b9b6c565e58b157b5ffce12ba0",
+				"dweb:/ipfs/QmWu4KYsJgNUUFUgFdmqHUGrGdA5XLy9PUjdMhsJwkjWZD"
+			]
+		}
+	},
+	"version": 1
+}

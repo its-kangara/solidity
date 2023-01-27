@@ -7,15 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "number",
-				"outputs": [
+				"name": "loops",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -32,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Types.sol": "SimpleStorage"
+			"contracts/ForAndWhile.sol": "ForAndWhileLoops"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Types.sol": {
-			"keccak256": "0xbfd0f8fe687187c26f3471c21d314582fb0d3a662173efbb50425ef216e56224",
+		"contracts/ForAndWhile.sol": {
+			"keccak256": "0xba4171d87fdaa515adbf3fce523fa3828461246303333350f0be9a37de49c465",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://739da044ac86bbd038ea2e3b40faff72c59d64ca555e67903efd61aea387ed62",
-				"dweb:/ipfs/Qmc7KY5f6Mzrnpt85qyEVZ3eC7L5GwsgJD54sABuUnSPr2"
+				"bzz-raw://2ec1b54bd45258c061d0e349ddc9e3be0024f805b5fbe9237342066e5c3ca8fa",
+				"dweb:/ipfs/QmPrXKvoxivQoqNsHQDykhXWfh9Qttii7i1PbBG328kBFF"
 			]
 		}
 	},
