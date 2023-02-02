@@ -24,6 +24,9 @@ V, r , s :  components of the tx signature
                                                                     //chainlink virtiual randomness numbers ( e.g lotery, NTFS 
                                                                     //Chainlink keepers  listens to diffrent event and charges gas 
                                                                     //End to end reliablity - make request to API's 
+Calldata instead of memory saves gas. reduces copies
+memory Read without saving to the blockchain 
+
 
 
 
