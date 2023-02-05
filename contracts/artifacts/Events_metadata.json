@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Message",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "indexedLog",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "sendMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Events.sol": "Events"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Events.sol": {
+			"keccak256": "0x06967527a50f455da55c13e6e5246f9de58bb635fd3b5defa51708bc7affa42a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b5c5bdc79ca44b878e96a9783a326b7cd725e6f8aec127c708837569b8c53ca",
+				"dweb:/ipfs/QmUMjkRBfqM2jaiSKytw9FgrPZV6LWJZnARrkC1TPX4hZD"
+			]
+		}
+	},
+	"version": 1
+}
