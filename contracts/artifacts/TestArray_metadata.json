@@ -6,51 +6,31 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFind",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
@@ -71,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DelegateCall.sol": "B"
+			"contracts/Library.sol": "TestArray"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -85,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DelegateCall.sol": {
-			"keccak256": "0xe9da22cb24b2706afaa05b7971bea0db6a59af620b19ae265c93a3f3d272ca87",
+		"contracts/Library.sol": {
+			"keccak256": "0xfd45974d319328e2779d45be01fa40243fa9375c7d1e755544287049de425b0f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a99871446d7f5ee547d65859035ae0bbd0c07658249507a4c5166def7703037d",
-				"dweb:/ipfs/QmNeS8jn8kAuJsM641A1fnr4azEbiyrvocfdstryNuD7CN"
+				"bzz-raw://9df99284e7260642c190f21f18dbfbbbfa8dbedcc2aa2c4f05b769f28d25a4d9",
+				"dweb:/ipfs/QmU5CNnv6VJPzmEHPcy4n6HmDX8qzFSj7J2wGQU7quxj1x"
 			]
 		}
 	},

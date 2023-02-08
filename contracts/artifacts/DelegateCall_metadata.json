@@ -34,6 +34,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_test",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
 						"name": "_num",
 						"type": "uint256"
@@ -71,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DelegateCall.sol": "B"
+			"contracts/DelegateCall.sol": "DelegateCall"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -86,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/DelegateCall.sol": {
-			"keccak256": "0xe9da22cb24b2706afaa05b7971bea0db6a59af620b19ae265c93a3f3d272ca87",
+			"keccak256": "0x92a657fa5e80deabdb81b50e173aa3ad6ddf3d6b7fa6d725c440b9c093911681",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a99871446d7f5ee547d65859035ae0bbd0c07658249507a4c5166def7703037d",
-				"dweb:/ipfs/QmNeS8jn8kAuJsM641A1fnr4azEbiyrvocfdstryNuD7CN"
+				"bzz-raw://8ebdfb6d1bd1bd3167af16512f6f03578b0221fee3cd610c6a865231696a23ae",
+				"dweb:/ipfs/QmdpWHBmHnfh5AWUD3mT7no72SpnVTQteT8khrQX5zpaHn"
 			]
 		}
 	},

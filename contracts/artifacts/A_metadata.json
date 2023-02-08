@@ -7,15 +7,59 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "A"
+			"contracts/DelegateCall.sol": "A"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Inheritance.sol": {
-			"keccak256": "0x47a4dbea430929b0e644c4e29ef6b518f4bd53f1199e124b625df610b83ae699",
+		"contracts/DelegateCall.sol": {
+			"keccak256": "0xe9da22cb24b2706afaa05b7971bea0db6a59af620b19ae265c93a3f3d272ca87",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c49a6ef6ed7f3bea0497917cdc3595eba59ec6c77d0be7092dd7bc94e5f4d141",
-				"dweb:/ipfs/Qmf6GeyCZivYsSbpnS7jPxtS5auYW4trtEwdYwrVr65j3X"
+				"bzz-raw://a99871446d7f5ee547d65859035ae0bbd0c07658249507a4c5166def7703037d",
+				"dweb:/ipfs/QmNeS8jn8kAuJsM641A1fnr4azEbiyrvocfdstryNuD7CN"
 			]
 		}
 	},

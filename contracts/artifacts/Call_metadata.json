@@ -6,52 +6,39 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_test",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "callDoesnotExtst",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_test",
+						"type": "address"
 					}
 				],
-				"name": "setVars",
+				"name": "callFoo",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "value",
+				"name": "data",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "view",
@@ -71,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DelegateCall.sol": "B"
+			"contracts/Call.sol": "Call"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -85,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DelegateCall.sol": {
-			"keccak256": "0xe9da22cb24b2706afaa05b7971bea0db6a59af620b19ae265c93a3f3d272ca87",
+		"contracts/Call.sol": {
+			"keccak256": "0x478d0f74f5712de7f60187672dcba7095435eecee8b55c133926cf1e8049de98",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a99871446d7f5ee547d65859035ae0bbd0c07658249507a4c5166def7703037d",
-				"dweb:/ipfs/QmNeS8jn8kAuJsM641A1fnr4azEbiyrvocfdstryNuD7CN"
+				"bzz-raw://5946e67a19080f629d37fdf7e14c17aa5087681e2d95a52a6e1946e9b5d768c6",
+				"dweb:/ipfs/QmUjkAumq2NHrzgiXxEbUqFQEheaNq5EnF5Jh2GRDh2maa"
 			]
 		}
 	},
