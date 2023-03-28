@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contract_X_addr",
+						"type": "address"
+					}
+				],
+				"name": "increment_1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contract_X_addr",
+						"type": "address"
+					}
+				],
+				"name": "increment_2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/web3Clubs/yacademy.sol": "Y"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/web3Clubs/yacademy.sol": {
+			"keccak256": "0xaafc037e0d4571df8b20c43d6114b669aed862b75c97578002fbf68f8eedc459",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b45d49d4fd37032368eca9071a490f2a2c6c1fc3a737605b372368be0103aedf",
+				"dweb:/ipfs/QmSHFb8Pe8yA4qtB99RvXSgVPosgcSrxQowS99N7FgabxL"
+			]
+		}
+	},
+	"version": 1
+}

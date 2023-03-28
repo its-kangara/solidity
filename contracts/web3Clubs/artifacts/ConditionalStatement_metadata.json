@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "X",
+						"type": "int256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/web3Clubs/conditioalStatement.sol": "ConditionalStatement"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/web3Clubs/conditioalStatement.sol": {
+			"keccak256": "0x107f9b5db5172d10a835c8d6af33a22ba0a41e5f4871f3ff802ed5505667598b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5365c4ec97042de7c2cf52b3e5fd7fe095bab2ca1c229028e9ef32db53d300e4",
+				"dweb:/ipfs/QmTNENk1MYz6E62ES9D8qE8pVtPuHnGVyiXE45631YB97p"
+			]
+		}
+	},
+	"version": 1
+}

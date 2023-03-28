@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -40,6 +40,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -91,7 +98,7 @@
 		"compilationTarget": {
 			"contracts/Enum.sol": "Enum"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -104,11 +111,11 @@
 	},
 	"sources": {
 		"contracts/Enum.sol": {
-			"keccak256": "0x612b7a5452572439e9a62b13ae271d4b24325a9de45e8d2ebd2cc8f968c6102a",
+			"keccak256": "0xbbd94e65f1cef25e9b8f89866cc81615c801a75b87ba990c943bf45240fbc931",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d96b01292e1c501fbe72632cf2f258ecfb90dad5fec847308dc5e5786bbe9bf",
-				"dweb:/ipfs/QmVd5oPrYSyPYSe8B9bNaDkVhfq8JFzfbFRYswPUKHjygM"
+				"bzz-raw://2d88e6d37242931cb14bd1b14139d652202fc3cc6a942ee5f16a57784f3245ea",
+				"dweb:/ipfs/QmWBTUobj3FWj8bEP9VQAcjwPXFTBM17bjWiKZxEMVJkjB"
 			]
 		}
 	},

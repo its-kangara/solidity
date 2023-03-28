@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -152,9 +152,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Struct.sol": "IterateMapping"
+			"contracts/IteratableMApping.sol": "IterateMapping"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -166,7 +166,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Struct.sol": {
+		"contracts/IteratableMApping.sol": {
 			"keccak256": "0x07352a0ad3b45bd6e567417cea4a89ec81ec5a88a0f5eafb2d1e419c615de15e",
 			"license": "MIT",
 			"urls": [

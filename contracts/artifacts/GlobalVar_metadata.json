@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.8+commit.dddeac2f"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -42,9 +42,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/StateVariables.sol": "GlobalVar"
+			"contracts/GlobalVar.sol": "GlobalVar"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -56,7 +56,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StateVariables.sol": {
+		"contracts/GlobalVar.sol": {
 			"keccak256": "0x2c0f6ef883efe736c01b8d20ed1906c252610b52444f535e69d934529dbb441d",
 			"license": "MIT",
 			"urls": [
