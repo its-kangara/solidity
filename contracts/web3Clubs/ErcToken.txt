@@ -1,0 +1,33 @@
+  ERC20 standard defines a set of functions to be implemented by all ERC20 tokens so as to allow integration with other contracts, wallets, or marketplaces. 
+ 
+  
+  
+  six functions  tat makes up the ERC token .
+
+function totalSupply() public view returns (uint256);
+function balanceOf(address tokenOwner) public view returns (uint);
+function allowance(address tokenOwner, address spender)
+public view returns (uint);
+function transfer(address to, uint tokens) public returns (bool);
+function approve(address spender, uint tokens)  public returns (bool);
+function transferFrom(address from, address to, uint tokens) public returns (bool);
+
+
+Events defined by 
+
+event Approval(address indexed tokenOwner, address indexed spender,
+ uint tokens);
+event Transfer(address indexed from, address indexed to,
+ uint tokens);
+
+
+added features in the ERC token 
+
+string public constant name;  - name of the toke 
+string public constant symbol; -  symbol or initials
+uint8 public constant decimals; -  Decimal points say 8
+
+
+public function means it can be accessed outside the contract itself 
+view  or constant - the contract internal state will not be changed by the function 
+Event - a way to notify frontend of the specif occurence with the contract .

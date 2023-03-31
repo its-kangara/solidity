@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/web3Clubs/Erc20token.sol": "Erc20token"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/web3Clubs/Erc20token.sol": {
+			"keccak256": "0xc91432edcc386cec56f3285fa5d227aade48abd321e9fcbffe68977c5fd70ad4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc67e995bf9d4c6a3595c1cde7884e9582f6423d97f46d4279e33b821bef961f",
+				"dweb:/ipfs/QmToFyaMt8MXsaA9GQ1zQ7XFJvG6pq1b1gW9XX2WNeC2AP"
+			]
+		}
+	},
+	"version": 1
+}
