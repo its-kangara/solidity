@@ -39,7 +39,6 @@ uint256 totalSupply_;
 //     totalSupply_ = total;
 //     balances(msg.sender) = _totalSupply;
 // }
-
 constructor(uint256 total) public {
    totalSupply_ = total;
    balances[msg.sender] = _totalSupply;
@@ -48,7 +47,7 @@ constructor(uint256 total) public {
 
 
 
-function totalSupply() public view returns (uint256){
+function totalSupply() public view returns (uint256){}
 
 }
 
