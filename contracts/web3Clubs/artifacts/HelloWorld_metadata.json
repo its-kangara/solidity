@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -13,6 +13,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -41,27 +54,8 @@
 			{
 				"inputs": [],
 				"name": "getGreetMessage",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "greet",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -75,11 +69,18 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "newgreetings",
+						"name": "",
 						"type": "string"
 					}
 				],
 				"name": "setGreetMessga",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -98,7 +99,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/web3Clubs/strings.sol": "HelloWorld"
+			"contracts/web3Clubs/Web3.sol": "HelloWorld"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -112,12 +113,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/web3Clubs/strings.sol": {
-			"keccak256": "0x515274a3042698ae16a62e869f83b4c4217c1d10c1c50a6133836b7f1b360c27",
+		"contracts/web3Clubs/Web3.sol": {
+			"keccak256": "0xbf4a25aa17c76c70c72eb6801a64e97fe140a82488f5ec0f24a52e063182ab32",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://94ce5179fc78759b4b7d7136a9d949db9903c049cd405e54d3b51943fced9cd5",
-				"dweb:/ipfs/Qmb1RCsdQYuq2MnG53zWaBdMfmgYCpKDLL9PDSVGo5dnhv"
+				"bzz-raw://ccfb67f2769393f0650b8cfaabc9ea277003b2a8fb1ba8ebe9a7d068759b5fe9",
+				"dweb:/ipfs/QmbF4jMYJHLmkmqAY1rn4idnXoPoeAHwf5paLkFQsEgvde"
 			]
 		}
 	},

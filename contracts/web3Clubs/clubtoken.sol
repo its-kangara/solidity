@@ -4,12 +4,12 @@ pragma solidity ^0.8.15;
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 //import "openzeppelin/contracts/utils/math/Safemath.sol";
-//import "openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract web3ClubsToken {
-     using Safemath for uint256;
+     using SafeMath for uint256;
 
-     string public tokenName = "web3Clubstoken";
+     string public tokenName = "Clubstoken";
      string public symbol = "WCT";
     uint public decimals = 18;
     uint public decimalFactor = 10 ** uint256(decimals);
@@ -26,7 +26,7 @@ contract web3ClubsToken {
     mapping(address => mapping (address => uint256)) allowance;
 
   constructor(uint256 total) public {
-      totalSupply_ = total;
+      totalSupply = total;
       balances[msg.sender] = _totalSupply;
       }
 
@@ -39,7 +39,7 @@ contract web3ClubsToken {
     }
 
     function totalSupply() public view returns (uint256) {
-        return totalSupply_;
+        return totalSupply;
     }
 
     function balanceOf(address tokenOwner) public view returns (uint) {

@@ -1,27 +1,9 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-interface IERC20 {
-
-    function totalSupply() external view returns (uint256);
-
-    function balanceOf(address account) external view returns (uint256);
-
-    function allowance(address Owner, address spender) external view returns (uint);
 
 
-    function transfer(address recipient, uint amount) external returns (bool);
-
-    function approve(address spender, uint amount)  external returns (bool);
-
-    function transferFrom(address sender, address recipient, uint amount) external returns (bool);
-
-    event Approval(address indexed owner, address indexed spender, uint amount);
-    event Transfer(address indexed from, address indexed to, uint amount);
-
-}
-
-contract ERC20 is IERC20 {
+contract Erc20token {
 
     uint public totalSupply;
     mapping (address => uint) public balanceOf;
@@ -34,7 +16,7 @@ contract ERC20 is IERC20 {
     function transfer(address recipient, uint amount) external returns (bool){
         balanceOf[msg.sender] -= amount;
         balanceOf[recipient]  += amount;
-        emit Transfer (msg.sender, recipient, amount);
+        emit transfer (msg.sender, recipient, amount);
         return true;
 
     }
@@ -60,6 +42,8 @@ contract ERC20 is IERC20 {
     }
 
     function transferFrom(address sender, address recipient, uint amount) external returns (bool){
+        require(_value <= balanceOf[_from]);
+        require(_value <= allowance[_fromn][msg.sender]);
         allowance [sender][msg.sender] -= amount;
         balanceOf[sender] -= amount;
         balanceOf[recipient] += amount;
@@ -72,7 +56,7 @@ contract ERC20 is IERC20 {
     function mint (uint amount ) external {
         balanceOf[msg.sender] += amount;
         totalSupply += amount;
-        emit Transfer(add)
+        emit Transfer(add);
     }
 
   
